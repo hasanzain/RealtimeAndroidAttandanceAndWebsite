@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dashboard"
+    tools:context=".UpdateUserActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateUser"
+        android:text="Update password user"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Password baru"
+        android:layout_below="@+id/updateUser"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/passwordText"
+        android:padding="20dp"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@+id/passwordText"
+        android:hint="Konfirmasi password baru"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/passwordConfirmText"
+        android:padding="20dp"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordConfirmText"
+        android:layout_marginHorizontal="20dp"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:id="@+id/updateBtn"
+        />
+</RelativeLayout>

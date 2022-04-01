@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RealtimeAbsensiApp</string>
+    <string name="login">Login</string>
+    <string name="nip">NIP</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+    <string name="absen">Absen</string>
+    <string name="nrp">NRP</string>
+</resources>
